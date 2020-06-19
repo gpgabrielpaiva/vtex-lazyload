@@ -783,7 +783,7 @@
     }
 
     config.getNoscriptContent =  function(noScript){
-        return noScript.textContent || noScript.innerText;
+        return noScript.innerHTML;
     };
 
     window.addEventListener('lazybeforeunveil', function(e){
